@@ -4,6 +4,12 @@ Compile
 
 `$ mvn clean compile`
 
+eclipsify 
+=========
+
+`$ mvn eclipse:eclipse`
+
+
 [Run in dev mode](http://stackoverflow.com/a/3599131/432903)
 ===============
 
