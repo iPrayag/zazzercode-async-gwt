@@ -3,6 +3,7 @@ Compile
 =======
 
 `$ mvn clean compile`
+`$ mvn gwt:compile`
 
 eclipsify 
 =========
@@ -15,9 +16,15 @@ eclipsify
 
 `$ mvn compile gwt:run`
 
-Run 
-===
+Run using jetty
+===============
 `$ mvn jetty:run`
+
+war
+===
+`$ mvn package`
+`$ sudo cp target/gwt20-managed-rpc.war /usr/local/AT_7028/webapps/`
+`$ /usr/local/AT_7028/bin/startup.sh`
 
 browse
 ======
